@@ -1,0 +1,282 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.11f1 (d00248457e15) revision 13632072'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 64672 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+E:/Unity Projects/Game-Jam-2024/Game Jam 2024
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+59550
+Successfully changed project path to: E:/Unity Projects/Game-Jam-2024/Game Jam 2024
+E:/Unity Projects/Game-Jam-2024/Game Jam 2024
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14012] Host "[IP] 192.168.2.29 [Port] 0 [Flags] 2 [Guid] 963113836 [EditorId] 963113836 [Version] 1048832 [Id] WindowsEditor(7,DeansPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14012] Host "[IP] 192.168.2.29 [Port] 0 [Flags] 2 [Guid] 963113836 [EditorId] 963113836 [Version] 1048832 [Id] WindowsEditor(7,DeansPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 31 workers.
+Refreshing native plugins compatible for Editor in 6.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.11f1 (d00248457e15)
+[Subsystems] Discovering subsystems at path D:/2022.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity Projects/Game-Jam-2024/Game Jam 2024/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 7900 XTX (ID=0x744c)
+    Vendor:   ATI
+    VRAM:     24515 MB
+    Driver:   31.0.21029.6002
+Initialize mono
+Mono path[0] = 'D:/2022.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002919 seconds.
+- Loaded All Assemblies, in  0.218 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.173 seconds
+Domain Reload Profiling: 391ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (77ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (75ms)
+			TypeCache.Refresh (74ms)
+				TypeCache.ScanAssembly (66ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (173ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (132ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.381 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.311 seconds
+Domain Reload Profiling: 693ms
+	BeginReloadAssembly (111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (196ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (76ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (229ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (57.0 KB). Loaded Objects now: 3580.
+Memory consumption went from 131.7 MB to 131.7 MB.
+Total: 2.225700 ms (FindLiveObjects: 0.219800 ms CreateObjectMapping: 0.095700 ms MarkObjects: 1.827500 ms  DeleteObjects: 0.082000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116111.934723 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Corner_02_C.prefab
+  artifactKey: Guid(9d02221fb5297a0429ded63f85590a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Corner_02_C.prefab using Guid(9d02221fb5297a0429ded63f85590a90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3d355ed48bf91e5322ff4b364ca21f') in 0.111036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_Hole_01_A.prefab
+  artifactKey: Guid(8ec585e29b9f169459d0b8775e6d92d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_Hole_01_A.prefab using Guid(8ec585e29b9f169459d0b8775e6d92d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299b3cafcae5b196261184774cdb890b') in 0.034973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_01_A.prefab
+  artifactKey: Guid(18ed505596ec59b4ea1dcfffad6a4aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_T+_01_A.prefab using Guid(18ed505596ec59b4ea1dcfffad6a4aa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5a1b2cb24a9d62b17340a9e9d25a85') in 0.022190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_06_C.prefab
+  artifactKey: Guid(41050271504953940899a8a51457fcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_BasicCorner_06_C.prefab using Guid(41050271504953940899a8a51457fcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d08ad1844274fe342460efa7e4444fb') in 0.022425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+RoomStairs_01_A.prefab
+  artifactKey: Guid(2a7a4d1c004c83d49afef1a2f844f0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+RoomStairs_01_A.prefab using Guid(2a7a4d1c004c83d49afef1a2f844f0c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8e132529a53de2ed9f61ff04c14137') in 0.018277 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_01_A.prefab
+  artifactKey: Guid(fd4ab0bde46686149a8239c5469fbc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_01_A.prefab using Guid(fd4ab0bde46686149a8239c5469fbc69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe92e93681219f1f5d8cee2dc0d776c') in 0.018181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_01_C.prefab
+  artifactKey: Guid(9ada2049428545f4cb130917db2ff95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_T+Side_01_C.prefab using Guid(9ada2049428545f4cb130917db2ff95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2d8943c0d611174a0c49a4da608f86') in 0.031577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleCeiling_01_D.prefab
+  artifactKey: Guid(805ca5cc931ab344b99889642cf7e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Room_HoleCeiling_01_D.prefab using Guid(805ca5cc931ab344b99889642cf7e4ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ada5e4d6144b5a2bfd381f39cc742f') in 0.026650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_02_D.prefab
+  artifactKey: Guid(dca34f98bfb644241a8fe233ad83cdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_+Side_02_D.prefab using Guid(dca34f98bfb644241a8fe233ad83cdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c6efa2753eb620a4642bdab00a73f48') in 0.019591 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.761253 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_02_D.prefab
+  artifactKey: Guid(86583ca1336d8944590bbeb33645f7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_02_D.prefab using Guid(86583ca1336d8944590bbeb33645f7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e406f68627940a52c00c45725914ad5') in 0.030645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_04_D.prefab
+  artifactKey: Guid(c00c97e102a64d64d9f8789fc5ea04f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_TCorner_04_D.prefab using Guid(c00c97e102a64d64d9f8789fc5ea04f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1738cdb253517a0fe6b89ad0fc06572') in 0.040177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_01_B.prefab
+  artifactKey: Guid(1ea24d0b9f205b04781fdc09d3f34c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Backrooms/BackroomsLikeAsset/prefab/Tiles/Tiles_TStairs_01_B.prefab using Guid(1ea24d0b9f205b04781fdc09d3f34c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec1195cf4f568604348956c755d4873') in 0.033006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
